@@ -211,7 +211,7 @@ img {
   gap: 30px;
 }
 .features-item {
-  flex-basis: calc((100%-90px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 }
 .features {
   padding-top: 94px;
@@ -324,17 +324,22 @@ img {
   gap: 30px;
 }
 .portfolio-list-item {
-  /* flex-basis: calc((100%-60px) / 3); */
+  flex-basis: calc((100% - 60px) / 3);
+  border: solid 1px #eeeeee;
 }
 .portfolio-img {
   margin-bottom: 20px;
+}
+.portfolio-container {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .portfolio-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 0 24px 4px 24px;
+  margin-bottom: 4px;
 }
 .portfolio-text {
   font-weight: 400;
@@ -342,5 +347,5 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin: 0 24px 20px 24px;
+  margin-bottom: 20px;
 }
